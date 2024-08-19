@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#nav {
+    
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    height: 4vh;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: larger;
+    font-weight: 700;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#background-vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 46vh;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#background-vid h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 100px;
+    color: white;
+}
+
+#video-bg {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#intro {
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+
+#intro img {
+    border-radius: 10px;
+}
+
+#text {
+    font-family: Montserrat;
+    width: 30vh;
+}
+
+#text h2{
+    text-align: right;
+    font-size: 32px;
+    padding-bottom: 10px;
+    
+}
+
+#text p{
+    text-align: right;
+}
+
+#ucsd {
+    text-decoration: none;
+}
+
+#about {
+    border-bottom: solid black 1px;
+}
+
+#about h1 {
+    display: flex;
+    font-family: Montserrat;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    height: 5vh;
+}
+
+#about-me-text {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#about-me-text p {
+    width: 40%;
+    text-align: left;
+    line-height: 1.6;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+#about-me-text img {
+    border-radius: 10px;
+}
+
+#portfolio {
+    border-bottom: solid black 1px;
+}
+
+#portfolio h1 {
+    display: flex;
+    font-family: Montserrat;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    height: 5vh;
+}
+
+#robot-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+
+#robot-body img {
+    border-radius: 10px;
+}
+
+#robot-text {
+    font-family: Montserrat;
+    text-align: right;
+    line-height: 1.6;
+    width: 50%;
+}
+
+#robot-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 5%;
+    height: 15vh;
+}
+
+#robot-gallery img {
+    border-radius: 10px;
+}
+
+#skills-learned {
+    font-family: Montserrat;
+    line-height: 1.6;
+    width: 25%;
+    text-align: right;
+}
+
+#line-web {
+    color: black; 
+    text-decoration: none;
+}
+
+#line-web:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#contact {
+    font-family: Montserrat;
+}
+
+#contact h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    height: 5vh;
+}
+
+#main-contact {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+}
+
+.inner-content {
+    width: 30%;
+}
+
+.inner-content h3{
+    padding-bottom: 10px;
+}
+
+#linkedin-link {
+    text-decoration: none;
+    color: black;
+}
+
+#linkedin-link:hover {
+    text-decoration: underline;
+}

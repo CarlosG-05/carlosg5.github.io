@@ -7,20 +7,27 @@
     
 }
 
-#nav {
-    
+html {
+    font-size: 12px;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+#nav {   
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     align-items: center;
-    height: 4vh;
+    height: 4dvh;
 }
 
 #nav a {
     text-decoration: none;
     color: black;
     font-family: Montserrat;
-    font-size: larger;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -35,14 +42,14 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    min-height: 46vh;
+    min-height: 46dvh;
     background-color: rgba(0, 0, 0, .6);
 }
 
 #background-vid h1 {
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 10rem;
     color: white;
 }
 
@@ -57,7 +64,7 @@
 }
 
 #intro {
-    height: 50vh;
+    height: 50dvh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -70,12 +77,12 @@
 
 #text {
     font-family: Montserrat;
-    width: 30vh;
+    width: 30dvh;
 }
 
 #text h2{
     text-align: right;
-    font-size: 32px;
+    font-size: 3rem;
     padding-bottom: 10px;
     
 }
@@ -97,12 +104,12 @@
     font-family: Montserrat;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
-    height: 5vh;
+    font-size: 3rem;
+    height: 5dvh;
 }
 
 #about-me-text {
-    height: 45vh;
+    height: 45dvh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -129,15 +136,15 @@
     font-family: Montserrat;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
-    height: 5vh;
+    font-size: 3rem;
+    height: 5dvh;
 }
 
 #robot-body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 30vh;
+    height: 30dvh;
 }
 
 #robot-body img {
@@ -156,7 +163,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 0 5%;
-    height: 15vh;
+    height: 15dvh;
 }
 
 #robot-gallery img {
@@ -188,8 +195,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
-    height: 5vh;
+    font-size: 3rem;
+    height: 5dvh;
 }
 
 #main-contact {
@@ -197,7 +204,7 @@
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    height: 15vh;
+    height: 15dvh;
 }
 
 .inner-content {
@@ -215,4 +222,35 @@
 
 #linkedin-link:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    #intro {
+        flex-direction: column;
+    }
+
+    #text p, #text h2{
+        text-align: center;
+    }
+
+    #about-me-text {
+        flex-direction: column;
+        justify-content: center;
+        height: 45dvh;
+    }
+
+    #about-me-text p {
+        text-align: center;
+        width: 80%;
+        padding-bottom: 10px;
+    }
+
+    #robot-body {
+        flex-direction: column;
+        height: 75vh;
+    }
+
+    #robot-text {
+        text-align: center;
+    }
 }
